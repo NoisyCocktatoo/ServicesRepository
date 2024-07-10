@@ -14,7 +14,7 @@ using ServicesRepository.HttpServices;
 
 namespace ServicesRepository.HttpHelper
 {
-    public class HttpHelpers
+    public class HttpHelpers : IHttpHelpers
     {
         private readonly HttpClient httpClient;
 
